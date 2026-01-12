@@ -4,7 +4,7 @@ title: "About Sherry Yu"
 
 ## Who I Am
 
-I am an Electrical & Computer Engineering student at Vanderbilt University with a strong interest on embedded systems, digital hardware, and hardware–software integration. 
+Sherry is an Electrical & Computer Engineering student at Vanderbilt University with a strong interest on embedded systems, digital hardware, and hardware–software integration. 
 
 ---
 
