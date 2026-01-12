@@ -41,5 +41,3 @@ Relevant coursework includes digital systems, FPGA design, intermediate software
   Lead technical workshops, professional panels, and recruiting events, and organized IEEE’s Project Showcase makethon, coordinating teams, judging, and event execution for 60+ engineering students.
 
 ---
-
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/> heres the about page write me something about me
