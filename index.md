@@ -15,9 +15,9 @@ feature_row:
     title: "Tiny Tapeout Ring Oscillator"
     excerpt: "A custom ASIC ring oscillator for radiation-effects testing and semiconductor reliability."
   - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
+    alt: "Phone Case CAD Rendering"
+    title: "Phone Case CAD Rendering"
+    excerpt: "Custom designed phone case using Fusion 360"
   - image_path: assets/img/Zidex-Thumbnail.jpg
     title: "Bespoke IDEX 3D Printer"
     excerpt: "Multimaterial printing. "
