@@ -17,7 +17,7 @@ feature_row:
   - image_path: /assets/img/Phone Case.png
     alt: "Phone Case CAD Rendering"
     title: "Phone Case CAD Rendering"
-    excerpt: "Custom designed phone case using Fusion 360"
+    excerpt: "Custom designed phone case using Fusion 360."
   - image_path: assets/img/Zidex-Thumbnail.jpg
     title: "Bespoke IDEX 3D Printer"
     excerpt: "Multimaterial printing. "
