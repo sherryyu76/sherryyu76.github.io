@@ -84,12 +84,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/sherryyu76"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/sherry-yu766/"
+    - "https://github.com/sherryyu76"
+    - "https://www.linkedin.com/in/sherry-yu766/"
 
 # Analytics
 analytics:
