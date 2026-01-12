@@ -18,9 +18,10 @@ feature_row:
     alt: "Phone Case CAD Rendering"
     title: "Phone Case CAD Rendering"
     excerpt: "Custom designed phone case using Fusion 360."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: /assets/img/FPGA.png
+    alt: "Binary to Hexadecimal Decoder"
+    title: "Binary to Hexadecimal Decoder"
+    excerpt: "Binary to Hexadecimal decoder on a seven segment display of a DE-10 FPGA board."
 ---
 
 {% include feature_row %}
