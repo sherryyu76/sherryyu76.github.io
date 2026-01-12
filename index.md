@@ -14,7 +14,7 @@ feature_row:
     alt: "Tiny Tapeout Ring Oscillator"
     title: "Tiny Tapeout Ring Oscillator"
     excerpt: "A custom ASIC ring oscillator for radiation-effects testing and semiconductor reliability."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
+  - image_path: /assets/img/Phone Case.png
     alt: "Phone Case CAD Rendering"
     title: "Phone Case CAD Rendering"
     excerpt: "Custom designed phone case using Fusion 360"
