@@ -41,3 +41,5 @@ Relevant coursework includes digital systems, FPGA design, intermediate software
   Lead technical workshops, professional panels, and recruiting events, and organized IEEE’s Project Showcase makethon, coordinating teams, judging, and event execution for 60+ engineering students.
 
 ---
+
+![Sherry Yu](/assets/img/IMG_0830 2.JPG)
