@@ -19,7 +19,6 @@ feature_row:
     title: "Phone Case CAD Rendering"
     excerpt: "Custom designed phone case using Fusion 360."
   - image_path: /assets/img/FPGA.png
-    alt: "Binary to Hexadecimal Decoder"
     title: "Binary to Hexadecimal Decoder"
     excerpt: "Binary to Hexadecimal decoder on a seven segment display of a DE-10 FPGA board."
 ---
