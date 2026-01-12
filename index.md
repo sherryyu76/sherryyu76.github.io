@@ -4,7 +4,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: [/assets/img/Home-Banner-Image.jpeg](https://vietbay.com.vn/wp-content/uploads/2023/07/Picture1-2.png)
+  overlay_image: /assets/img/Picture1-2.png
   actions:
     - label: "Explore My Work"
       url: "/portfolio/"
