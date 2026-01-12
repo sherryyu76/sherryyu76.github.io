@@ -1,31 +1,45 @@
 ---
+title: "About Sherry Yu"
+---
 
-title: "About David Florian"
+## Who I Am
+
+I am an Electrical & Computer Engineering student at Vanderbilt University with a strong interest on embedded systems, digital hardware, and hardware–software integration. 
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+**Vanderbilt University**  
+*B.E. Electrical & Computer Engineering*  
+Minors in Computer Science & Digital Fabrication  
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
-* Vanderbilt University
-  * PhD Biomedical Engineering
+Relevant coursework includes digital systems, FPGA design, intermediate software design, linear algebra and differential equations, engineering probability & statistics, circuit design, and rapid prototyping.
+
+---
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+- **Embedded & Mechatronic Systems** — Arduino-based control systems, microstepping motor drivers, sensor integration, and real-time firmware for electromechanical devices  
+- **Digital Design & FPGA** — Verilog/VHDL, Quartus, FPGA-based logic design, and ASIC test structures for semiconductor research  
+- **Semiconductor & Hardware Research** — radiation-effects testing, ring oscillator test chips, TinyTapeout flows, and hardware verification  
+- **Programming & Software** — Java, C, C++, Python, and JavaScript for system control, data processing, and automation  
+- **Engineering & CAD Tools** — Fusion 360, AutoCAD, TinkerCAD, PCB prototyping, and 3D-printed mechanical design  
+- **Networking & Systems** — Wireshark, Cisco Packet Tracer, Linux environments, and technical troubleshooting  
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+---
 
-## Press 
+## Experience & Leadership
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+- **Vanderbilt University Institute for Space and Defense Electronics (ISDE) Lab — Undergraduate Research Apprentice**  
+  Designed and verified ASIC test structures for radiation-effects testing in aerospace and defense electronics, including a TinyTapeout ring oscillator with Python and Verilog verification to measure proton and heavy-ion induced frequency shifts.
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+- **Vanderbilt Robotics and Autonomous Systems (RASL) Lab — Undergraduate Research Intern**  
+  Supported behavioral AI research for autonomous systems by annotating and optimizing large datasets, significantly improving model training speed and accuracy.
+
+- **Vanderbilt IEEE — Secretary**  
+  Lead technical workshops, professional panels, and recruiting events, and organized IEEE’s Project Showcase makethon, coordinating teams, judging, and event execution for 60+ engineering students.
+
+---
+
+<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/> heres the about page write me something about me
