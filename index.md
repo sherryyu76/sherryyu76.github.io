@@ -10,7 +10,7 @@ header:
       url: "/portfolio/"
 excerpt: "Electrical & Computer Engineering student at Vanderbilt University working on embedded systems, FPGA design, semiconductor test chips, and additive manufacturing."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
+  - image_path: /assets/img/TinyTapeout.png
     alt: "Tiny Tapeout Ring Oscillator"
     title: "Tiny Tapeout Ring Oscillator"
     excerpt: "A custom ASIC ring oscillator for radiation-effects testing and semiconductor reliability."
