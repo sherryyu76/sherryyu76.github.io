@@ -1,6 +1,6 @@
 ---
 title: "Syringe Pump"
-excerpt: "Custom printed, & assembled low-cost (>90% cheaper) Syringe pump that ddressed high cost of commercial units (>$800), while enabling adjustable, precise fluid delivery (±0.0001 mL)"
+excerpt: "Custom printed, & assembled low-cost syringe pump that ddressed high cost of commercial units, while enabling precise fluid delivery (±0.0001 mL)"
 header:
   image: /assets/img/SyringePumpRender.png
   teaser: /assets/img/SyringePump.png
