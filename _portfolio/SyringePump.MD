@@ -31,8 +31,7 @@ The pump supports both 10 mL and 20 mL syringes without mechanical reconfigurati
 - **Status Indication** – An RGB LED displays pump states including running, paused, manual motion, and limit reached.  
 - **Protective Enclosure** – The electronics are housed inside a box that protects users from electrical components and shields them from fluid spills.  
 
-
-#Off Shelf Parts
+## Off Shelf Parts
 
 | Part | Quantity |
 |------|----------|
@@ -63,7 +62,7 @@ The pump supports both 10 mL and 20 mL syringes without mechanical reconfigurati
 | 8 mm Linear Rod (200 mm) | 1 |
 | ¼” to 8 mm Flexible Shaft Coupler | 1 |
 
-##Custom 3D Printed Parts
+## Custom 3D Printed Parts
 
 | Part | Link |
 |------|------|
@@ -73,7 +72,7 @@ The pump supports both 10 mL and 20 mL syringes without mechanical reconfigurati
 | In Support | [View Model](https://a360.co/3NIO0UY) |
 | In Support with Syringe Wing | [View Model](https://a360.co/49hPRbY) |
 
-##Operating the Syringe Pump
+## Operating the Syringe Pump
 
 **1.** Set the syringe diameter size and desired flow rate in the Arduino IDE program (`syringe_edits.ino`) using the functions `syringeDiameter_mm` and `flowRate_mL_min`.  
 **2.** Plug the computer into the Arduino using the USB cable and select the proper USB port in the program.  
@@ -85,6 +84,5 @@ The pump supports both 10 mL and 20 mL syringes without mechanical reconfigurati
 **8.** Press the black latch button to start the pump. The LED should turn green.  
 **9.** Once the pump is complete, the LED will turn red and the actuator will stop moving.
 
-
-
 {% include gallery caption="Automatic Stepper Motor Driven Syringe Pump. " %}
+
