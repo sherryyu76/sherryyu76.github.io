@@ -1,20 +1,20 @@
 ---
 title: "Syringe Pump"
-excerpt: "Custom printed, & assembled low-cost syringe pump that ddressed high cost of commercial units, while enabling precise fluid delivery (±0.0001 mL)"
+excerpt: "Custom printed, & assembled low-cost syringe pump that addressed high cost of commercial units, while enabling precise fluid delivery (±0.0001 mL)"
 header:
   image: /assets/img/SyringePumpRender.png
   teaser: /assets/img/SyringePump.png
 
 gallery:
-  - url: /assets/img/Cyber-Scooter-1.jpg
-    image_path: assets/img/Cyber-Scooter-1.jpg
-    alt: "placeholder image 1"
-  - url: /assets/img/Cyber-Scooter-2.jpg
-    image_path: assets/img/Cyber-Scooter-2.jpg
-    alt: "placeholder image 2"
-  - url: /assets/img/Cyber-Scooter-3.jpg
-    image_path: assets/img/Cyber-Scooter-3.jpg
-    alt: "placeholder image 3"
+  - url: /assets/img/SyringePump1.JPG
+    image_path: /assets/img/SyringePump1.JPG
+    alt: "Interior Wiring of Syringe Pump"
+  - url: /assets/img/SyringePump2.JPG
+    image_path: /assets/img/SyringePump2.JPG
+    alt: "Side Profile Syringe Pump"
+  - url: /assets/img/SyringePump3.JPG
+    image_path: /assets/img/SyringePump3.JPG
+    alt: "Breadboard wiring along with the stepper motor driver"
 ---
 
 # Off Shelf Parts
@@ -29,6 +29,7 @@ gallery:
 | 400-point Solderless Breadboard | 1 |
 | Jumper Wire Kit | 1 pack |
 | Assorted Resistor Kit | 1 pack |
+| Stepper Motor Driver  | 1 |
 | Stainless Steel Thread-locking Socket Head Screws | 8 |
 | Mean Well RD-65A Dual Output Power Supply | 1 |
 | Zinc-Plated Steel Hex Nut | 1 |
@@ -46,6 +47,7 @@ gallery:
 | TR8×8 Lead Screw (250 mm) | 1 |
 | 8 mm Linear Rod (200 mm) | 1 |
 | ¼” to 8 mm Flexible Shaft Coupler | 1 |
+
 
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
