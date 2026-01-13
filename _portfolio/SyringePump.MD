@@ -21,6 +21,8 @@ The automated syringe pump was designed to deliver or withdraw liquid from a syr
 
 The pump supports both 10 mL and 20 mL syringes without mechanical reconfiguration. Flow rate is set in software and converted into motor speed using the geometry of the syringe and lead screw, allowing consistent volumetric delivery across syringe sizes.
 
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028110fb0092e04850470?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 ## Key Features of the Design
 
 - **Stepper-Driven Lead Screw** – A stepper motor drives an 8 mm lead screw that converts rotational motion into precise linear movement of the syringe plunger.  
@@ -74,9 +76,9 @@ The pump supports both 10 mL and 20 mL syringes without mechanical reconfigurati
 
 ## Operating the Syringe Pump
 
-**1.** Set the syringe diameter size and desired flow rate in the Arduino IDE program (`syringe_edits.ino`) using the functions `syringeDiameter_mm` and `flowRate_mL_min`.  
+**1.** Set the syringe diameter size and desired flow rate in the Arduino IDE program using the functions `syringeDiameter_mm` and `flowRate_mL_min`.  
 **2.** Plug the computer into the Arduino using the USB cable and select the proper USB port in the program.  
-**3.** Upload `syringe_edits.ino` to the Arduino.  
+**3.** Upload the program to the Arduino.  
 **4.** Remove the USB cable from the Arduino and plug in the power cord.  
 **5.** Prepare the syringe by pulling the plunger until full with the desired amount of liquid.  
 **6.** Use the forward and reverse buttons (red) to set the correct length of the actuator so that the syringe will fit in the inserts. Ensure the pump is not moving. If it is, press the black latch button to stop it and reset the length between the syringe holders.  
