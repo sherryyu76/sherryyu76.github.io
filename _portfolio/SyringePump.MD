@@ -17,7 +17,24 @@ gallery:
     alt: "Breadboard wiring along with the stepper motor driver"
 ---
 
-# Off Shelf Parts
+The automated syringe pump was designed to deliver or withdraw liquid from a syringe with high precision and repeatability for laboratory and medical-style applications. Unlike manual syringe operation, which is inconsistent and difficult to control, this system converts the rotational motion of a stepper motor into linear motion through a lead-screw-driven actuator. This allows the device to control fluid flow rates in milliliters per minute, making it suitable for experiments requiring accurate, programmable dosing.
+
+The pump supports both 10 mL and 20 mL syringes without mechanical reconfiguration. Flow rate is set in software and converted into motor speed using the geometry of the syringe and lead screw, allowing consistent volumetric delivery across syringe sizes.
+---
+
+## Key Features of the Design
+
+- **Stepper-Driven Lead Screw** – A stepper motor drives an 8 mm lead screw that converts rotational motion into precise linear movement of the syringe plunger.  
+- **Universal Syringe Mount** – Custom 3D-printed pusher and holder blocks allow both 10 mL and 20 mL syringes to fit securely without mechanical reconfiguration.  
+- **Programmable Flow Control** – The syringe diameter and desired flow rate are entered in software and used to calculate the motor speed for accurate volumetric delivery.  
+- **Manual & Automatic Operation** – A latch button controls automatic pumping, while forward and reverse buttons allow manual positioning of the actuator.  
+- **Limit Switch Safety** – A normally-closed limit switch stops all motion when the syringe reaches its mechanical limit to prevent damage.  
+- **Status Indication** – An RGB LED displays pump states including running, paused, manual motion, and limit reached.  
+- **Protective Enclosure** – The electronics are housed inside a box that protects users from electrical components and shields them from fluid spills.  
+
+---
+
+##Off Shelf Parts
 
 | Part | Quantity |
 |------|----------|
@@ -47,7 +64,31 @@ gallery:
 | TR8×8 Lead Screw (250 mm) | 1 |
 | 8 mm Linear Rod (200 mm) | 1 |
 | ¼” to 8 mm Flexible Shaft Coupler | 1 |
+---
+
+##Custom 3D Printed Parts
+
+| Part | Link |
+|------|------|
+| Electronic Component Enclosure | [View Model](https://a360.co/4qRrEPI) |
+| Syringe Carriage | [View Model](https://a360.co/49hPJcu) |
+| Motor Mounting Plate | [View Model](https://a360.co/4sz29nX) |
+| In Support | [View Model](https://a360.co/3NIO0UY) |
+| In Support with Syringe Wing | [View Model](https://a360.co/49hPRbY) |
+---
+
+##Operating the Syringe Pump
+
+**1.** Set the syringe diameter size and desired flow rate in the Arduino IDE program (`syringe_edits.ino`) using the functions `syringeDiameter_mm` and `flowRate_mL_min`.  
+**2.** Plug the computer into the Arduino using the USB cable and select the proper USB port in the program.  
+**3.** Upload `syringe_edits.ino` to the Arduino.  
+**4.** Remove the USB cable from the Arduino and plug in the power cord.  
+**5.** Prepare the syringe by pulling the plunger until full with the desired amount of liquid.  
+**6.** Use the forward and reverse buttons (red) to set the correct length of the actuator so that the syringe will fit in the inserts. Ensure the pump is not moving. If it is, press the black latch button to stop it and reset the length between the syringe holders.  
+**7.** Insert the syringe into the holder. The plunger should go in the rectangle closer to the motor, and the base of the syringe should go on top of the rectangle closer to the LED.  
+**8.** Press the black latch button to start the pump. The LED should turn green.  
+**9.** Once the pump is complete, the LED will turn red and the actuator will stop moving.
 
 
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery caption="Automatic Stepper Motor Driven Syringe Pump. " %}
