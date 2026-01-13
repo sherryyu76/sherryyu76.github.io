@@ -42,4 +42,11 @@ Relevant coursework includes digital systems, FPGA design, intermediate software
 
 ---
 
+## Awards & Recognitions
+
+- **Vanderbilt University Dean’s List** (2024–2026)  
+- **William H. Cammack Scholar** (2024–2025)
+
+---
+
 ![Sherry Yu](/assets/img/IMG_0830 2.JPG)
