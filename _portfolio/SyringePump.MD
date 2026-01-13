@@ -20,7 +20,6 @@ gallery:
 The automated syringe pump was designed to deliver or withdraw liquid from a syringe with high precision and repeatability for laboratory and medical-style applications. Unlike manual syringe operation, which is inconsistent and difficult to control, this system converts the rotational motion of a stepper motor into linear motion through a lead-screw-driven actuator. This allows the device to control fluid flow rates in milliliters per minute, making it suitable for experiments requiring accurate, programmable dosing.
 
 The pump supports both 10 mL and 20 mL syringes without mechanical reconfiguration. Flow rate is set in software and converted into motor speed using the geometry of the syringe and lead screw, allowing consistent volumetric delivery across syringe sizes.
----
 
 ## Key Features of the Design
 
@@ -32,9 +31,8 @@ The pump supports both 10 mL and 20 mL syringes without mechanical reconfigurati
 - **Status Indication** – An RGB LED displays pump states including running, paused, manual motion, and limit reached.  
 - **Protective Enclosure** – The electronics are housed inside a box that protects users from electrical components and shields them from fluid spills.  
 
----
 
-##Off Shelf Parts
+#Off Shelf Parts
 
 | Part | Quantity |
 |------|----------|
@@ -64,7 +62,6 @@ The pump supports both 10 mL and 20 mL syringes without mechanical reconfigurati
 | TR8×8 Lead Screw (250 mm) | 1 |
 | 8 mm Linear Rod (200 mm) | 1 |
 | ¼” to 8 mm Flexible Shaft Coupler | 1 |
----
 
 ##Custom 3D Printed Parts
 
@@ -75,7 +72,6 @@ The pump supports both 10 mL and 20 mL syringes without mechanical reconfigurati
 | Motor Mounting Plate | [View Model](https://a360.co/4sz29nX) |
 | In Support | [View Model](https://a360.co/3NIO0UY) |
 | In Support with Syringe Wing | [View Model](https://a360.co/49hPRbY) |
----
 
 ##Operating the Syringe Pump
 
