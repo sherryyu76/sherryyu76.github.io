@@ -86,7 +86,7 @@ The pump supports both 10 mL and 20 mL syringes without mechanical reconfigurati
 **8.** Press the black latch button to start the pump. The LED should turn green.  
 **9.** Once the pump is complete, the LED will turn red and the actuator will stop moving.
 
-🔗 **[View the Syringe Pump Arduino code on GitHub](https://github.com/sherryyu76/sherryyu76.github.io/assets/SyringePumpCode)**
+🔗 **[View the Syringe Pump Arduino code on GitHub](/assets/SyringePumpCode)**
 
 
 {% include gallery caption="Automatic Stepper Motor Driven Syringe Pump. " %}
