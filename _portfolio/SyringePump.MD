@@ -1,6 +1,7 @@
 ---
-title: "Syringe Pump"
-excerpt: "Custom printed, & assembled low-cost syringe pump that addressed high cost of commercial units, while enabling precise fluid delivery (±0.0001 mL)"
+title: "Multimaterial Pliers"
+excerpt: "Multi-material, print-in-place pair of pliers that functions immediately after printing with no assembly required, featuring a precise grip capable of picking up small components such as through-hole resistors. "
+
 header:
   image: /assets/img/SyringePumpRender.png
   teaser: /assets/img/SyringePump.png
@@ -17,76 +18,46 @@ gallery:
     alt: "Breadboard wiring along with the stepper motor driver"
 ---
 
-The automated syringe pump was designed to deliver or withdraw liquid from a syringe with high precision and repeatability for laboratory and medical-style applications. Unlike manual syringe operation, which is inconsistent and difficult to control, this system converts the rotational motion of a stepper motor into linear motion through a lead-screw-driven actuator. This allows the device to control fluid flow rates in milliliters per minute, making it suitable for experiments requiring accurate, programmable dosing.
+## Print in Place Parts 
+Print-in-place printing is a design approach commonly used in FFF that incorporates mechanisms such as hinges, joints, and linkages directly into a single printed part to create movement without post-assembly. These designs require careful consideration of precision, tolerances, and material integrity in order to function properly. Small dimensional inaccuracies can prevent moving components from operating as intended.
 
-The pump supports both 10 mL and 20 mL syringes without mechanical reconfiguration. Flow rate is set in software and converted into motor speed using the geometry of the syringe and lead screw, allowing consistent volumetric delivery across syringe sizes.
+In many cases, multi-material printing is used to enhance functionality. For example, flexible materials such as TPU can be combined with rigid materials such as ABS or PLA to create compliant mechanisms or integrated spring features. The contrast between elastic and structural materials allows controlled motion within a single printed assembly.Print-in-place parts have a wide range of applications. They can be used in simple articulated figurines, such as this [articulated dragon](https://www.printables.com/model/413203-articulated-night-spirit-dragon) to functional everyday components, such as this [print-in-place ball bearings](https://www.printables.com/model/541192-print-in-place-bearings).
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028110fb0092e04850470?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+This project applies the print-in-place design approach to create a multi-material pair of pliers, integrating moving components directly into the print to eliminate the need for mechanical assembly.
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028119e2765fd49261ed5?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Key Features of the Design
 
-- **Stepper-Driven Lead Screw** – A stepper motor drives an 8 mm lead screw that converts rotational motion into precise linear movement of the syringe plunger.  
-- **Universal Syringe Mount** – Custom 3D-printed pusher and holder blocks allow both 10 mL and 20 mL syringes to fit securely without mechanical reconfiguration.  
-- **Programmable Flow Control** – The syringe diameter and desired flow rate are entered in software and used to calculate the motor speed for accurate volumetric delivery.  
-- **Manual & Automatic Operation** – A latch button controls automatic pumping, while forward and reverse buttons allow manual positioning of the actuator.  
-- **Limit Switch Safety** – A normally-closed limit switch stops all motion when the syringe reaches its mechanical limit to prevent damage.  
-- **Status Indication** – An RGB LED displays pump states including running, paused, manual motion, and limit reached.  
-- **Protective Enclosure** – The electronics are housed inside a box that protects users from electrical components and shields them from fluid spills.  
+This multi-material plier design consists of two essential components: a rigid body and a flexible spring element. The rigid component, which forms the handles and clamping jaws, is printed in PLA to provide the structural strength and stiffness necessary for gripping objects securely. The flexible component is printed in 95A TPU, allowing the pliers to compress and reliably spring back to their original position during clamping. The two regions are connected using dovetail joints, which mechanically lock the materials together. To ensure the components remained securely joined during repeated clamping while still being printable as a combined design, multiple iterations were conducted to determine the optimal tolerance for the dovetail interface.
 
-## Off Shelf Parts
+### Rigid Region Print Settings
 
-| Part | Quantity |
-|------|----------|
-| Heat Set Inserts (M3) | 11 |
-| Alloy Steel Socket Head Screws (M3) | 8 |
-| Latching Push Button | 1 |
-| Non-latching Push Button | 2 |
-| RGB LED (Common Anode/Cathode) | 1 |
-| 400-point Solderless Breadboard | 1 |
-| Jumper Wire Kit | 1 pack |
-| Assorted Resistor Kit | 1 pack |
-| Stepper Motor Driver  | 1 |
-| Stainless Steel Thread-locking Socket Head Screws | 8 |
-| Mean Well RD-65A Dual Output Power Supply | 1 |
-| Zinc-Plated Steel Hex Nut | 1 |
-| Arduino Uno | 1 |
-| V-Slot 20×40 Aluminum Extrusion (350 mm) | 1 |
-| NEMA-17 Stepper Motor | 1 |
-| M3 × 10 mm Bolts | 4 |
-| M5 T-Slot (Tree) Nuts | 8 |
-| M5 × 8 mm Bolts | 8 |
-| F688ZZ Flanged Ball Bearing (8 mm ID) | 1 |
-| M3 × 8 mm Thread-forming Screws | 4 |
-| TR8×8 Brass Lead-Screw Nut | 1 |
-| LM8UU Linear Bearing | 1 |
-| 20 mL Syringe | 1 |
-| TR8×8 Lead Screw (250 mm) | 1 |
-| 8 mm Linear Rod (200 mm) | 1 |
-| ¼” to 8 mm Flexible Shaft Coupler | 1 |
+Because the rigid region is expected to withstand force during the squeezing motion, structural integrity is critical. This is reinforced by increasing perimeter shells and including sufficient top and bottom solid layers to strengthen both the horizontal and vertical directions. A moderate infill density is also used to balance strength and material efficiency.
 
-## Custom 3D Printed Parts
+| Setting                     | Value         |
+|------------------------------|--------------|
+| Material                     | PLA          |
+| Vertical Perimeters (Shells) | 3            |
+| Top Solid Layers             | 3            |
+| Bottom Solid Layers          | 3            |
+| Infill Pattern               | Rectilinear  |
+| Infill Density               | 30%          |
 
-| Part | Link |
-|------|------|
-| Electronic Component Enclosure | [View Model](https://a360.co/4qRrEPI) |
-| Syringe Carriage | [View Model](https://a360.co/49hPJcu) |
-| Motor Mounting Plate | [View Model](https://a360.co/4sz29nX) |
-| In Support | [View Model](https://a360.co/3NIO0UY) |
-| In Support with Syringe Wing | [View Model](https://a360.co/49hPRbY) |
 
-## Operating the Syringe Pump
+### Flexible Region Print Settings
 
-**1.** Set the syringe diameter size and desired flow rate in the Arduino IDE program using the functions `syringeDiameter_mm` and `flowRate_mL_min`.  
-**2.** Plug the computer into the Arduino using the USB cable and select the proper USB port in the program.  
-**3.** Upload the program to the Arduino.  
-**4.** Remove the USB cable from the Arduino and plug in the power cord.  
-**5.** Prepare the syringe by pulling the plunger until full with the desired amount of liquid.  
-**6.** Use the forward and reverse buttons (red) to set the correct length of the actuator so that the syringe will fit in the inserts. Ensure the pump is not moving. If it is, press the black latch button to stop it and reset the length between the syringe holders.  
-**7.** Insert the syringe into the holder. The plunger should go in the rectangle closer to the motor, and the base of the syringe should go on top of the rectangle closer to the LED.  
-**8.** Press the black latch button to start the pump. The LED should turn green.  
-**9.** Once the pump is complete, the LED will turn red and the actuator will stop moving.
+To allow the flexible region to deform easily while still maintaining the ability to spring back and retain the overall model shape, solid top and bottom layers are removed. This increases compliance and allows the internal structure to control the elastic behavior. A grid infill pattern is used with a 90° infill angle so that the internal strands align parallel to the perimeter walls, enabling the component to flex in the intended orientation defined by the CAD model.
 
-🔗 **[View the Syringe Pump Arduino code on GitHub](https://github.com/sherryyu76/Syringe_Pump_Code/blob/main/ArduinoCode)**
+| Setting                     | Value        |
+|------------------------------|-------------|
+| Material                     | 95A TPU     |
+| Vertical Perimeters (Shells) | 3           |
+| Top Solid Layers             | 0           |
+| Bottom Solid Layers          | 0           |
+| Infill Pattern               | Grid        |
+| Infill Density               | 20%         |
+| Infill Angle                 | 90°         |
 
 
 {% include gallery caption="Automatic Stepper Motor Driven Syringe Pump. " %}
