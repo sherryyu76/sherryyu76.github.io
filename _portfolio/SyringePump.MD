@@ -25,6 +25,7 @@ In many cases, multi-material printing is used to enhance functionality. For exa
 
 This project applies the print-in-place design approach to create a multi-material pair of pliers, integrating moving components directly into the print to eliminate the need for mechanical assembly.
 
+##CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028119e2765fd49261ed5?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Key Features of the Design
