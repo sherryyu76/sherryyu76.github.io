@@ -45,6 +45,10 @@ The two regions are connected using dovetail joints, which interlock the rigid a
 
 In addition to tuning the tolerance, the width and height of the dovetails also required several iterations. If the dovetails were too large, it limited the number that could be incorporated per side and reduced overall flexibility. If they were too small, the components would disengage during compression. After extensive testing, a dovetail height of 3.33 mm and a width of 4 mm, with three dovetails per side, was selected as the optimal configuration. This arrangement provided sufficient interlocking strength while preserving flexibility and printability, ultimately proving to be the most effective design.
 
+<p align="center">
+  <img src="/assets/img/Dovetail-Iterations.jpg" alt="Dovetail Iterations" width="700">
+</p>
+
 ### Clamp Design
 
 
