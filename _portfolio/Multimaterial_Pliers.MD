@@ -72,5 +72,5 @@ To allow the flexible region to deform easily while still maintaining the abilit
 | Infill Angle                 | 90°         |
 
 
-{% include gallery caption="Automatic Stepper Motor Driven Syringe Pump. " %}
+{% include gallery caption="Multimaterial Pliers" %}
 
