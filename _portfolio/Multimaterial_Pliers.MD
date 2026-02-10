@@ -52,7 +52,7 @@ In addition to tuning the tolerance, the width and height of the dovetails also 
 ### Clamp Design
 
 <p align="center">
-  <img src="sherryyu76.github.io/assets/img/plier-all.jpg" alt="Plier Iterations" width="700">
+  <img src="{{ site.baseurl }}/assets/img/plier-all.jpg" alt="Plier Iterations" width="700">
 </p>
 
 The figure above illustrates the evolution of the clamp design from the first prototype (left) to the final version (right). Early iterations focused on improving grip precision and mechanical advantage. Version 1 followed a needle-nose approach, but this configuration proved ineffective because the contact point was too far from the location of applied force, reducing gripping strength.
@@ -60,13 +60,13 @@ The figure above illustrates the evolution of the clamp design from the first pr
 To address this, later versions transitioned to a flat-nose design to increase surface area and improve stability when holding objects. Iteration two featured jaws that were directly perpendicular, which caused uneven closure during compression and left a gap at the bottom of the clamp. 
 
 <p align="center">
-  <img src="sherryyu76.github.io/assets/img/Plier-Iteration-2.PNG" alt="Second Iteration" width="700">
+  <img src="{{ site.baseurl }}/assets/img/Plier-Iteration-2.PNG" alt="Second Iteration" width="700">
 </p>
 
 Iteration three introduced a slight inward angle so the bottom of the clamp closed first, improving tip contact; however, this created a void near the top when gripping objects perpendicular to the surface. The final design resolved these issues through rounded corners, a 15 mm interior jaw height, a 79° bottom tip angle relative to the main clamp, and an overall length of 70 mm, resulting in a more precise, reliable, and balanced gripping mechanism.
 
 <p align="center">
-  <img src="sherryyu76.github.io/assets/img/PlierGIF.gif" alt="Pliers Working Demonstration" width="700">
+  <img src="{{ site.baseurl }}/assets/img/PlierGIF.gif" alt="Pliers Working Demonstration" width="700">
 </p>
 
 
