@@ -3,19 +3,19 @@ title: "Multimaterial Pliers"
 excerpt: "Multi-material, print-in-place pair of pliers that functions immediately after printing with no assembly required, featuring a precise grip capable of picking up small components such as through-hole resistors. "
 
 header:
-  image: /assets/img/SyringePumpRender.png
-  teaser: /assets/img/SyringePump.png
+  image: assets/img/Plier Iteration 2:3.jpg
+  teaser: assets/img/plier all.jpg
 
 gallery:
-  - url: /assets/img/SyringePump1.JPG
-    image_path: /assets/img/SyringePump1.JPG
-    alt: "Interior Wiring of Syringe Pump"
-  - url: /assets/img/SyringePump2.JPG
-    image_path: /assets/img/SyringePump2.JPG
-    alt: "Side Profile Syringe Pump"
+  - url: assets/img/plier all.jpg
+    image_path: assets/img/plier all.jpg
+    alt: "Different Plier parts"
+  - url: assets/img/Plier Iteration 2:3.jpg
+    image_path: assets/img/Plier Iteration 2:3.jpg
+    alt: "Two of the best iterations"
   - url: /assets/img/SyringePump3.JPG
-    image_path: /assets/img/SyringePump3.JPG
-    alt: "Breadboard wiring along with the stepper motor driver"
+    image_path: assets/img/PlierGIF.gif
+    alt: "Plier in motion"
 ---
 
 ## Print in Place Parts 
