@@ -52,7 +52,7 @@ In addition to tuning the tolerance, the width and height of the dovetails also 
 ### Clamp Design
 
 <p align="center">
-  <img src="assets/img/plier-all.jpg" alt="Plier Iterations" width="700">
+  <img src="/assets/img/plier-all.jpg" alt="Plier Iterations" width="700">
 </p>
 
 The figure above illustrates the evolution of the clamp design from the first prototype (left) to the final version (right). Early iterations focused on improving grip precision and mechanical advantage. Version 1 followed a needle-nose approach, but this configuration proved ineffective because the contact point was too far from the location of applied force, reducing gripping strength.
