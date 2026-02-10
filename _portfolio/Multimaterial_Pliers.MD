@@ -4,11 +4,11 @@ excerpt: "Multi-material, print-in-place pair of pliers that functions immediate
 
 header:
   image: assets/img/Plier Iteration 2:3.jpg
-  teaser: assets/img/plier all.jpg
+  teaser: assets/img/plier-all.jpg
 
 gallery:
-  - url: assets/img/plier all.jpg
-    image_path: assets/img/plier all.jpg
+  - url: assets/img/plier-all.jpg
+    image_path: assets/img/plier-all.jpg
     alt: "Different Plier parts"
   - url: assets/img/Plier Iteration 2:3.jpg
     image_path: assets/img/Plier Iteration 2:3.jpg
@@ -39,7 +39,7 @@ This project applies the print-in-place design approach to create a multi-materi
 
 This multi-material plier design consists of two essential components: a rigid body and a flexible spring element. The rigid component, which forms the handles and clamping jaws, is printed in PLA to provide the structural strength and stiffness necessary for gripping objects securely. The flexible component is printed in 95A TPU, allowing the pliers to compress and reliably spring back to their original position during clamping. Together, these materials create a compliant yet durable mechanism that enables controlled motion without requiring additional hardware.
 
-The two regions are connected using dovetail joints, which interlock the rigid and flexible sections. To ensure the components remained securely joined during repeated clamping while still being printable as a combined design, multiple iterations were conducted to determine the optimal tolerance for the dovetail interface. Ultimately, after many trials, a zero-clearance fit with a firm press-fit (“blunt force” insertion) proved to be the most reliable tolerance. This configuration prevented the two regions from separating under squeezing loads while maintaining structural stability during operation.
+The two regions are connected using dovetail joints, which interlock the rigid and flexible sections. To ensure the components remained securely joined during repeated clamping while still being printable as a combined design, multiple iterations were conducted to determine the optimal tolerance for the dovetail interface. Ultimately, after many trials, a zero-clearance fit with a firm press-fit proved to be the most reliable tolerance. This configuration prevented the two regions from separating under squeezing while maintaining structural stability during operation.
 
 In addition to tuning the tolerance, the width and height of the dovetails also required several iterations. If the dovetails were too large, it limited the number that could be incorporated per side and reduced overall flexibility. If they were too small, the components would disengage during compression. After extensive testing, a dovetail height of 3.33 mm and a width of 4 mm, with three dovetails per side, was selected as the optimal configuration. This arrangement provided sufficient interlocking strength while preserving flexibility and printability, ultimately proving to be the most effective design.
 
