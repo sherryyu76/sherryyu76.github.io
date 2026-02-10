@@ -9,11 +9,11 @@ header:
 gallery:
   - url: assets/img/plier-all.jpg
     image_path: assets/img/plier-all.jpg
-    alt: "Different Plier parts"
+    alt: "All pliers"
   - url: assets/img/Plier Iteration 2:3.jpg
     image_path: assets/img/Plier Iteration 2:3.jpg
     alt: "Two of the best iterations"
-  - url: /assets/img/SyringePump3.JPG
+  - url: assets/img/PlierGIF.gif
     image_path: assets/img/PlierGIF.gif
     alt: "Plier in motion"
 ---
@@ -50,6 +50,24 @@ In addition to tuning the tolerance, the width and height of the dovetails also 
 </p>
 
 ### Clamp Design
+
+<p align="center">
+  <img src="assets/img/plier-all.jpg" alt="Plier Iterations" width="700">
+</p>
+
+The figure above illustrates the evolution of the clamp design from the first prototype (left) to the final version (right). Early iterations focused on improving grip precision and mechanical advantage. Version 1 followed a needle-nose approach, but this configuration proved ineffective because the contact point was too far from the location of applied force, reducing gripping strength.
+
+To address this, later versions transitioned to a flat-nose design to increase surface area and improve stability when holding objects. Iteration two featured jaws that were directly perpendicular, which caused uneven closure during compression and left a gap at the bottom of the clamp. 
+
+<p align="center">
+  <img src="assets/img/Plier Iteration 2.PNG" alt="Second Iteration" width="700">
+</p>
+
+Iteration three introduced a slight inward angle so the bottom of the clamp closed first, improving tip contact; however, this created a void near the top when gripping objects perpendicular to the surface. The final design resolved these issues through rounded corners, a 15 mm interior jaw height, a 79° bottom tip angle relative to the main clamp, and an overall length of 70 mm, resulting in a more precise, reliable, and balanced gripping mechanism.
+
+<p align="center">
+  <img src="assets/img/PlierGIF.gif" alt="Pliers Working Demonstration" width="700">
+</p>
 
 
 ### Rigid Region Print Settings
