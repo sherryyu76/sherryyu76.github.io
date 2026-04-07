@@ -1,25 +1,25 @@
 ---
 title: "Pinch Flow Fractionation Microfludic Device"
-excerpt: "High resolution microfludic leveraging pinch and laminar flow to enable precise size-based separation of particles with sub-micron to micrometer-scale differences. "
+excerpt: "High resolution microfludic leveraging pinch and laminar flow to enable precise size-based separation of particles with sub-micron to micrometer-scale differences."
 header:
-  image: assets/img/uDeviceSketch.jpg
-  teaser: assets/img/DeviceRotated.jpg
+  image: /assets/img/uDeviceSketch.jpg
+  teaser: /assets/img/DeviceRotated.jpg
 
 gallery:
   - url: /assets/img/DeviceRotated.jpg
-    image_path: assets/img/DeviceRotated.jpg
+    image_path: /assets/img/DeviceRotated.jpg
     alt: "Casted PDMS Microfludic Device"
   - url: /assets/img/uDeviceSketch.jpg
-    image_path: assets/img/uDeviceSketch.jpg
+    image_path: /assets/img/uDeviceSketch.jpg
     alt: "CAD Sketch of Device"
   - url: /assets/img/TestSetUp.jpg
-    image_path: assets/img/TestSetUp.jpg
+    image_path: /assets/img/TestSetUp.jpg
     alt: "Test Set Up"
   - url: /assets/img/TestSolution.jpg
-    image_path: assets/img/TestSolution.jpg
+    image_path: /assets/img/TestSolution.jpg
     alt: "Test Solution That Included Various Partical Sizes Beads For Sorting"
   - url: /assets/img/ResinMold.jpg
-    image_path: assets/img/ResinMold.jpg
+    image_path: /assets/img/ResinMold.jpg
     alt: "High Resolution Mold Printed Using Resin Printing"
 ---
 
