@@ -16,11 +16,11 @@ gallery:
     image_path: assets/img/TestSetUp.jpg
     alt: "Test Set Up"
   - url: assets/img/TestSolution.jpg
-      image_path: assets/img/TestSolution.jpg
-      alt: "Test Solution That Included Various Partical Sizes Beads For Sorting"
+    image_path: assets/img/TestSolution.jpg
+    alt: "Test Solution That Included Various Partical Sizes Beads For Sorting"
   - url: assets/img/ResinMold.jpg
-      image_path: assets/img/ResinMold.jpg
-      alt: "High Resolution Mold Printed Using Resin Printing"
+    image_path: assets/img/ResinMold.jpg
+    alt: "High Resolution Mold Printed Using Resin Printing"
 ---
 
 ## Pinch Flow Fractionation
