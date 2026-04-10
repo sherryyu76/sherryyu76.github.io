@@ -4,6 +4,7 @@ excerpt: "High resolution microfludic leveraging pinch and laminar flow to enabl
 header:
   image: /assets/img/uDeviceSketch.jpg
   teaser: /assets/img/DeviceRotated.jpg
+mathjax: true
 
 gallery:
   - url: /assets/img/DeviceRotated.jpg
@@ -34,10 +35,12 @@ One biomedical application of PFF that requires the sorting of small particles i
 When designing the final device, several considerations were taken into account to ensure optimal performance. Two key factors included the placement of the outlet boundaries for each of the three outputs and the proper balancing of flow through each channel to prevent particles from being directed into incorrect streams.
 
 In determining the placement of the outlet boundaries, two particle size ranges were tested: 125–150 μm and 425–500 μm. Using a linear relationship, the particle position with respect to the bottom-right corner of the device is given by:
+
 $$
 Y_0 = \left(w_p - \frac{D}{2}\right)\frac{w_b}{w_p}
 $$
-where \( w_p \) is the pinch width, \( w_b \) is the broadened section width, and \( D \) is the particle diameter.
+
+where $w_p$ is the pinch width, $w_b$ is the broadened section width, and $D$ is the particle diameter.
 
 Based on these calculated ranges, buffer regions were introduced before each outlet. The minimum and maximum values of both particle ranges were used to define the overall stream span, and additional buffer spacing was incorporated to ensure that particles would reliably enter their intended outlets. Additionally, the diameter of the outlet holes was fixed due to the barbed fittings used in the experimental setup, which imposed a maximum allowable outlet channel width. For the larger particle range, the calculated positional span exceeded this maximum channel width, further necessitating the inclusion of buffer regions to accommodate the spread and maintain accurate particle sorting.
 
