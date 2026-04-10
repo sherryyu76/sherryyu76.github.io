@@ -3,12 +3,12 @@ title: "Pinch Flow Fractionation Microfludic Device"
 excerpt: "High resolution microfludic leveraging pinch and laminar flow to enable precise size-based separation of particles with sub-micron to micrometer-scale differences."
 header:
   image: /assets/img/uDeviceSketch.jpg
-  teaser: /assets/img/DeviceRotated.jpg
+  teaser: /assets/img/Device2.jpg
 mathjax: true
 
 gallery:
-  - url: /assets/img/DeviceRotated.jpg
-    image_path: /assets/img/DeviceRotated.jpg
+  - url: /assets/img/Device2.jpg
+    image_path: /assets/img/Device2.jpg
     alt: "Casted PDMS Microfludic Device"
   - url: /assets/img/uDeviceSketch.jpg
     image_path: /assets/img/uDeviceSketch.jpg
@@ -16,8 +16,8 @@ gallery:
   - url: /assets/img/TestSetUp.jpg
     image_path: /assets/img/TestSetUp.jpg
     alt: "Test Set Up"
-  - url: /assets/img/TestSolution.jpg
-    image_path: /assets/img/TestSolution.jpg
+  - url: /assets/img/TestSolution2.jpg
+    image_path: /assets/img/TestSolution2.jpg
     alt: "Test Solution That Included Various Partical Sizes Beads For Sorting"
   - url: /assets/img/ResinMold.jpg
     image_path: /assets/img/ResinMold.jpg
@@ -61,7 +61,7 @@ The experimental setup consisted of two syringe pumps for the inlet streams and 
 </p>
 
 <p align="center">
-  <img src="/assets/img/TestSolution.jpg" alt="Test Partical Solution" width="700">
+  <img src="/assets/img/TestSolution2.jpg" alt="Test Partical Solution" width="700">
 </p>
 
 
