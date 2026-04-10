@@ -39,7 +39,7 @@ where wp is the pinch width, wb is the broad section width, and D is the particl
 Based on these calculated ranges, buffer regions were introduced before each outlet. The minimum and maximum values of both particle ranges were used to define the overall stream span, and additional buffer spacing was incorporated to ensure that particles would reliably enter their intended outlets. Additionally, the diameter of the outlet holes was fixed due to the barbed fittings used in the experimental setup, which imposed a maximum allowable outlet channel width. For the larger particle range, the calculated positional span exceeded this maximum channel width, further necessitating the inclusion of buffer regions to accommodate the spread and maintain accurate particle sorting.
 
 <p align="center">
-  <img src="/assets/img/annotated2.png" alt="Annotated Device Profile" width="700">
+  <img src="/assets/img/annotated2.jpg" alt="Annotated Device Profile" width="700">
 </p>
 
 With regard to balancing the flow rate of each of the three output channels, an three channel asymmetric approach was used. This ensures that the buffer flow is less likely to shift into one of the particle outlets. Since resistance is directly proportional to the length of the channel, increasing the channel length provides a straightforward method for controlling resistance. By designing the buffer channel to have the shortest length (lowest resistance) and the small particle channel to have the longest length (highest resistance), the buffer flow is directed through its intended outlet, preventing it from entering the particle outlets and disrupting particle trajectories.
