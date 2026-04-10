@@ -46,6 +46,15 @@ With regard to balancing the flow rate of each of the three output channels, an 
 
 However, the total channel length is ultimately constrained by the dimensions of the glass slide used to create the device. To maximize the effective channel length within this limited space, a serpentine channel design was implemented for the two particle outlets. This allows for increased channel length, while efficiently utilizing the available area. In addition to adjusting the outlet channel lengths to achieve the desired resistance for each channel, three individual syringe pumps were utilized at each outlet. This allowed for precise control of the flow rate in each outlet channel, preventing uneven flow that could disrupt the trajectories of the particles.
 
+##Mold Fabrication via Resin Printing
+Resin printing was chosen for mold fabrication for the device as it is more ideal compared to traditional manufacturing methods. It enables rapid prototyping through additive manufacturing while achieving extremely fine feature resolution, smooth surface finishes, and minimal voids or gaps between layers for high resolution device. Additionally, resin printing offers significant flexibility for design modifications and scalability. If a wider range of particle sizes needs to be accommodated, new molds can be quickly fabricated with adjusted geometries based on the pinch flow equation above. This may include modifying outlet positions, increasing the number of channels, or expanding the buffer region to optimize separation for different particle sizes. Compared to traditional manufacturing methods, this approach allows for fast iteration and efficient customization of device designs.
+
+However, proper orientation and post-processing of the printed mold is essential to ensure device quality: leaving the bottom surface of the mold (the face that will contact the glass slide) must be perfectly flat and therefore should be oriented parallel to the resin vat during printing to minimize layer lines. After the print is complete, with the support material on, wash the device for 5 minutes, then allow it to dry upside down for 30 minutes to prevent IPA from pooling inside the microchannels. After drying, post-cure the device for 60 seconds before removing the supports. Throughout the process, avoid touching the interior of the uncured mold, as this can increase surface roughness and lead to sealing issues in the final device. It is also critical to ensure that all resin is fully cured, since any uncured resin will inhibit PDMS crosslinking and cause unwanted defects in the final device.
+
+<p align="center">
+  <img src="/assets/img/ResinMold.jpg" alt="Testing Set-Up" width="700">
+</p>
+
 ## Testing
 
 The experimental setup consisted of two syringe pumps for the inlet streams and three syringe pumps at the outlets to collect the sorted solutions. The inlet flow rates were set to 3.0 mL/min for the buffer and 0.6 mL/min for the particle solution to maximize pinch flow. Polyethylene (PE) beads of varying sizes were used for testing. Since PE beads are hydrophobic, a 3% Tween solution was used to properly suspend the particles. A microscope was then used to capture and analyze the results.
@@ -60,6 +69,7 @@ The experimental setup consisted of two syringe pumps for the inlet streams and 
 
 
 ## Results
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NUa7pG6YIWE" 
 title="Pinch Flow Fractionation Demo" frameborder="0" allowfullscreen></iframe>
 
