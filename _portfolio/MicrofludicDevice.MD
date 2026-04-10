@@ -13,12 +13,6 @@ gallery:
   - url: /assets/img/uDeviceSketch.jpg
     image_path: /assets/img/uDeviceSketch.jpg
     alt: "CAD Sketch of Device"
-  - url: /assets/img/TestSetUp.jpg
-    image_path: /assets/img/TestSetUp.jpg
-    alt: "Test Set Up"
-  - url: /assets/img/TestSolution2.jpg
-    image_path: /assets/img/TestSolution2.jpg
-    alt: "Test Solution That Included Various Partical Sizes Beads For Sorting"
   - url: /assets/img/ResinMold.jpg
     image_path: /assets/img/ResinMold.jpg
     alt: "High Resolution Mold Printed Using Resin Printing"
