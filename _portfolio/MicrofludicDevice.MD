@@ -3,12 +3,12 @@ title: "Pinch Flow Fractionation Microfludic Device"
 excerpt: "High resolution microfludic leveraging pinch and laminar flow to enable precise size-based separation of particles with sub-micron to micrometer-scale differences."
 header:
   image: /assets/img/uDeviceSketch.jpg
-  teaser: /assets/img/Device2.jpg
+  teaser: /assets/img/Device2.jpeg
 mathjax: true
 
 gallery:
-  - url: /assets/img/Device2.jpg
-    image_path: /assets/img/Device2.jpg
+  - url: /assets/img/Device2.jpeg
+    image_path: /assets/img/Device2.jpeg
     alt: "Casted PDMS Microfludic Device"
   - url: /assets/img/uDeviceSketch.jpg
     image_path: /assets/img/uDeviceSketch.jpg
