@@ -3,7 +3,7 @@ title: "Pinch Flow Fractionation Microfludic Device"
 excerpt: "High resolution microfludic leveraging pinch and laminar flow to enable precise size-based separation of particles with sub-micron to micrometer-scale differences."
 header:
   image: /assets/img/uDeviceSketch.jpg
-  teaser: /assets/img/Device2.png
+  teaser: /assets/img/DeviceRotating.jpeg
 mathjax: true
 
 gallery:
@@ -13,8 +13,8 @@ gallery:
   - url: /assets/img/uDeviceSketch.jpg
     image_path: /assets/img/uDeviceSketch.jpg
     alt: "CAD Sketch of Device"
-  - url: /assets/img/ResinMold.jpg
-    image_path: /assets/img/ResinMold.jpg
+  - url: /assets/img/ResinMold.jpeg
+    image_path: /assets/img/ResinMold.jpeg
     alt: "High Resolution Mold Printed Using Resin Printing"
 ---
 
