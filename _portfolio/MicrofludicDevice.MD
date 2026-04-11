@@ -7,8 +7,8 @@ header:
 mathjax: true
 
 gallery:
-  - url: /assets/img/Device2.png
-    image_path: /assets/img/Device2.jpeg
+  - url: /assets/img/DeviceRotating.jpeg
+    image_path: /assets/img/DeviceRotating.jpeg
     alt: "Casted PDMS Microfludic Device"
   - url: /assets/img/uDeviceSketch.jpg
     image_path: /assets/img/uDeviceSketch.jpg
@@ -52,27 +52,32 @@ Resin printing was chosen for mold fabrication for the device as it is more idea
 However, proper orientation and post-processing of the printed mold is essential to ensure device quality: leaving the bottom surface of the mold (the face that will contact the glass slide) must be perfectly flat and therefore should be oriented parallel to the resin vat during printing to minimize layer lines. After the print is complete, with the support material on, wash the device for 5 minutes, then allow it to dry upside down for 30 minutes to prevent IPA from pooling inside the microchannels. After drying, post-cure the device for 60 seconds before removing the supports. Throughout the process, avoid touching the interior of the uncured mold, as this can increase surface roughness and lead to sealing issues in the final device. It is also critical to ensure that all resin is fully cured, since any uncured resin will inhibit PDMS crosslinking and cause unwanted defects in the final device.
 
 <p align="center">
-  <img src="/assets/img/ResinMold.jpg" alt="Testing Set-Up" width="700">
+  <img src="/assets/img/ResinMold.jpeg" alt="Testing Set-Up" width="700">
 </p>
 
 ## Testing
-
 The experimental setup consisted of two syringe pumps for the inlet streams and three syringe pumps at the outlets to collect the sorted solutions. The inlet flow rates were set to 3.0 mL/min for the buffer and 0.6 mL/min for the particle solution to maximize pinch flow. Polyethylene (PE) beads of varying sizes were used for testing. Since PE beads are hydrophobic, a 3% Tween solution was used to properly suspend the particles. A microscope was then used to capture and analyze the results.
 
 <p align="center">
-  <img src="/assets/img/TestSetUp.jpg" alt="Testing Set-Up" width="700">
+  <img src="/assets/img/TestSetUp.jpeg" alt="Testing Set-Up" width="700">
 </p>
 
 <p align="center">
-  <img src="/assets/img/TestSolution2.png" alt="Test Partical Solution" width="700">
+  <img src="/assets/img/TestSolution.jpg" alt="Test Partical Solution" width="700">
 </p>
 
 
 ## Results
+After controlling the flow rates at both the inlets and outlets, a properly designed pinch flow fractionation device can effectively sort particles by size, directing smaller particles toward the channel closest to the upper wall and larger particles toward the middle channel. As shown in the video below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NUa7pG6YIWE" 
 title="Pinch Flow Fractionation Demo" frameborder="0" allowfullscreen></iframe>
 
+Future design iterations could incorporate a broad-section flow separator. In this approach shown in the video above, the buffer flow is partially separated from the particle trajectory, enabling more precise sorting while minimizing unwanted turbulence caused by interactions between the buffer and particle streams.
+
+## Conclusion
+In conclusion, pinch flow fractionation is an essential technique used in microfluidics to sort particles based on size, making it highly relevant for applications such as cell separation and other biomedical processes. While a key limiting factor for the minimum particle size that can be effectively separated is the resolution of the resin printing technology, specifically the smallest achievable pinch width needed for accurate sorting, the use of resin printing to fabricate molds for these devices is extremely advantageous, as it enables scalability, rapid design iteration, and high precision at the micron scale. 
 
 
 {% include gallery caption="Pinch Flow Fractionation Microfludic Device" %}
+
