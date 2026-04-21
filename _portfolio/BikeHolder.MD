@@ -1,5 +1,5 @@
 ---
-title: "Multimaterial Pliers"
+title: "Top Down Modeling Bike Phone Mount"
 excerpt: "Multi-material, print-in-place pair of pliers that functions immediately after printing with no assembly required, featuring a precise grip capable of picking up small components such as through-hole resistors. "
 
 header:
@@ -18,12 +18,11 @@ gallery:
     alt: "Plier in motion"
 ---
 
-## Print in Place Parts 
-Print-in-place printing is a design approach commonly used in FFF that incorporates mechanisms such as hinges, joints, and linkages directly into a single printed part to create movement without post-assembly. These designs require careful consideration of precision, tolerances, and material integrity in order to function properly. Small dimensional inaccuracies can prevent moving components from operating as intended.
+## Top Down Modeling 
 
-In many cases, multi-material printing is used to enhance functionality. For example, flexible materials such as TPU can be combined with rigid materials such as ABS or PLA to create compliant mechanisms or integrated spring features. The contrast between elastic and structural materials allows controlled motion within a single printed assembly.Print-in-place parts have a wide range of applications. They can be used in simple articulated figurines, such as this [articulated dragon](https://www.printables.com/model/413203-articulated-night-spirit-dragon) to functional everyday components, such as this [print-in-place ball bearings](https://www.printables.com/model/541192-print-in-place-bearings).
+Top-down modeling is a CAD design approach in which components are created within the context of a single assembly, rather than being designed individually and later combined. One of the main advantages of top-down modeling is its effectiveness in complex assemblies with many interdependent parts. By designing components in relation to one another, it allows for easy parameterization, consistent alignment, and direct referencing between features, ensuring that parts fit and function together correctly.
 
-This project applies the print-in-place design approach to create a multi-material pair of pliers, integrating moving components directly into the print to eliminate the need for mechanical assembly.
+In this project, a top-down modeling approach was used to design a bike phone mount that accommodates phones of varying sizes. When mounted, the holder allows the phone to rotate and securely snap into place between landscape and portrait orientations. The multiple components involved in the retractable and rotating mechanism benefit significantly from top-down modeling, as it enables direct access to critical dimensions and simplifies the creation of aligned features and joints, such as through the use of as-built joints.
 
 ## CAD Model
 
@@ -37,66 +36,41 @@ This project applies the print-in-place design approach to create a multi-materi
 
 ## Key Features of the Design
 
-This multi-material plier design consists of two essential components: a rigid body and a flexible spring element. The rigid component, which forms the handles and clamping jaws, is printed in PLA to provide the structural strength and stiffness necessary for gripping objects securely. The flexible component is printed in 95A TPU, allowing the pliers to compress and reliably spring back to their original position during clamping. Together, these materials create a compliant yet durable mechanism that enables controlled motion without requiring additional hardware.
+The design of this phone mount consists of five major components: a back panel that securely supports the phone, retractable wings that grip the device against the back panel for added stability, a bike clamp that attaches the mount to a 22.2 mm diameter handlebar, and a detent mechanism that enables controlled rotation and locking between landscape and portrait orientations. Together, these components create a secure and adjustable mounting system that accommodates a range of phone sizes while maintaining stability during use.
 
-### Dovetail Design
+### Detent Mechanism
 
-The two regions are connected using dovetail joints, which interlock the rigid and flexible sections. To ensure the components remained securely joined during repeated clamping while still being printable as a combined design, multiple iterations were conducted to determine the optimal tolerance for the dovetail interface. Ultimately, after many trials, a zero-clearance fit with a firm press-fit proved to be the most reliable tolerance. This configuration prevented the two regions from separating under squeezing while maintaining structural stability during operation.
+A ball-spring detent mechanism is used to enable rotation between landscape and portrait orientations. The mechanism consists of a compression spring, an 8 mm ball bearing, a gear component, a guide/retaining component, and a housing lip. The spring and ball bearing are placed within a cavity in the guide/retaining component, which is positioned over the gear and secured with a lid to keep the detent assembly in place. As the assembly rotates, the spring applies force to the ball bearing, pressing it into the grooves of the gear. This interaction creates discrete positions and provides resistance, allowing the mount to hold its orientation securely.
 
-In addition to tuning the tolerance, the width and height of the dovetails also required several iterations. If the dovetails were too large, it limited the number that could be incorporated per side and reduced overall flexibility. If they were too small, the components would disengage during compression. After extensive testing, a dovetail height of 3.33 mm and a width of 4 mm, with three dovetails per side, was selected as the optimal configuration. This arrangement provided sufficient interlocking strength while preserving flexibility and printability, ultimately proving to be the most effective design.
+Overall, the mechanism performed effectively; however, a key design consideration is the depth of the gear grooves. If the grooves are too deep, the detent force becomes too high, making rotation difficult. Conversely, if the grooves are too shallow, the holding force is insufficient, and the mount may not reliably maintain its orientation. This trade-off must be carefully balanced to achieve both smooth rotation and adequate positional stability.
 
 <p align="center">
   <img src="/assets/img/Dovetail-Iterations.jpg" alt="Dovetail Iterations" width="700">
 </p>
 
-### Clamp Design
+### Printing Method
 
 <p align="center">
   <img src="/assets/img/plier-all.jpg" alt="Plier Iterations" width="700">
 </p>
 
-The figure above illustrates the evolution of the clamp design from the first prototype (left) to the final version (right). Early iterations focused on improving grip precision and mechanical advantage. Version 1 followed a needle-nose approach, but this configuration proved ineffective because the contact point was too far from the location of applied force, reducing gripping strength.
+Traditional filament printing was used to manufacture the majority of the phone mount, as it offers rapid prototyping, minimal post-processing, and sufficient strength for this application. However, a trade-off of this method is reduced surface quality, particularly in features such as the gear grooves. The layer-based printing process introduces surface roughness, which can negatively affect the smooth rotation of the detent mechanism. To combat this, a shallower groove depth, approximately three-quarters of the ball bearing diameter, was selected to reduce resistance while still maintaining adequate detent engagement.
 
-To address this, later versions transitioned to a flat-nose design to increase surface area and improve stability when holding objects. Iteration two featured jaws that were directly perpendicular, which caused uneven closure during compression and left a gap at the bottom of the clamp. 
+For the clamp component, pSLS was used. Since the clamp must withstand tensile stress from being secured onto the bike handlebar, it is critical to use a manufacturing method that can endure repeated deformation without failure. The nylon pSLS-printed part met these requirements by providing a combination of strength, flexibility, and high dimensional accuracy.
 
 <p align="center">
   <img src="/assets/img/Plier-Iteration-2.PNG" alt="Second Iteration" width="700">
 </p>
-
-Iteration three introduced a slight inward angle so the bottom of the clamp closed first, improving tip contact; however, this created a void near the top when gripping objects perpendicular to the surface. The final design resolved these issues through rounded corners, a 15 mm interior jaw height, a 79° bottom tip angle relative to the main clamp, and an overall length of 70 mm, resulting in a more precise, reliable, and balanced gripping mechanism.
 
 <p align="center">
   <img src="/assets/img/PlierGIF.gif" alt="Pliers Working Demonstration" width="700">
 </p>
 
 
-### Rigid Region Print Settings
+### Assembly
 
-Because the rigid region is expected to withstand force during the squeezing motion, structural integrity is critical. This is reinforced by increasing perimeter shells and including sufficient top and bottom solid layers to strengthen both the horizontal and vertical directions. A moderate infill density is also used to balance strength and material efficiency.
+Heat-set inserts are first installed into the appropriate components, including the bottom portion of the bike clamp (M5), the back panel (M3), the bottom of the detent guide component (M3), and the gear panel (M3), using inserts of the correct diameter. Next, the retractable wings are assembled by partially threading screws into the rails using thread-forming screws, then inserting the male wing into the female track. An extension spring is attached between the two rails to enable retraction, and an M2 screw is installed along the side slot to prevent the wings from overextending. The gear panel is then secured to the back panel using four M3 × 15 mm screws.
 
-| Setting                     | Value         |
-|------------------------------|--------------|
-| Material                     | PLA          |
-| Vertical Perimeters (Shells) | 3            |
-| Top Solid Layers             | 3            |
-| Bottom Solid Layers          | 3            |
-| Infill Pattern               | Rectilinear  |
-| Infill Density               | 30%          |
-
-
-### Flexible Region Print Settings
-
-To allow the flexible region to deform easily while still maintaining the ability to spring back and retain the overall model shape, solid top and bottom layers are removed. This increases compliance and allows the internal structure to control the elastic behavior. A grid infill pattern is used with a 90° infill angle so that the internal strands align parallel to the perimeter walls, enabling the component to flex in the intended orientation defined by the CAD model.
-
-| Setting                     | Value        |
-|------------------------------|-------------|
-| Material                     | 95A TPU     |
-| Vertical Perimeters (Shells) | 3           |
-| Top Solid Layers             | 0           |
-| Bottom Solid Layers          | 0           |
-| Infill Pattern               | Grid        |
-| Infill Density               | 20%         |
-| Infill Angle                 | 90°         |
-
+Following this, the detent mechanism is assembled by placing the guide/retaining component over the gear, inserting the compression spring and 8 mm ball bearing into the cavity, and securing the assembly with a lid fastened by an M3 × 6 mm screw to retain the ball bearing inside the detent mechanism. The bottom portion of the detent assembly is then attached to the bike clamp using M3 × 10 mm screws. Finally, the fully assembled phone mount is secured onto the bike handlebar by fastening four M5 × 6 mm screws through the clamp using an Allen key, ensuring a tight and stable fit.
 
 {% include gallery caption="Multimaterial Pliers" %}
