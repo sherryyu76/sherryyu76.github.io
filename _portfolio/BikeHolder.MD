@@ -59,4 +59,8 @@ Heat-set inserts are first installed into the appropriate components, including 
 
 Following this, the detent mechanism is assembled by placing the guide/retaining component over the gear, inserting the compression spring and 8 mm ball bearing into the cavity, and securing the assembly with a lid fastened by an M3 × 6 mm screw to retain the ball bearing inside the detent mechanism. The bottom portion of the detent assembly is then attached to the bike clamp using M3 × 10 mm screws. Finally, the fully assembled phone mount is secured onto the bike handlebar by fastening four M5 × 6 mm screws through the clamp using an Allen key, ensuring a tight and stable fit.
 
+<p align="center">
+  <img src="/assets/img/IMG_5825.gif" alt="Rotating GIF" width="700">
+</p>
+
 {% include gallery caption="Multimaterial Pliers" %}
