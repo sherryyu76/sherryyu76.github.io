@@ -26,13 +26,7 @@ In this project, a top-down modeling approach was used to design a bike phone mo
 
 ## CAD Model
 
-<iframe
-  src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028119e2765fd49261ed5?mode=embed"
-  width="640"
-  height="480"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028111e3729c19c9df657?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Key Features of the Design
 
