@@ -3,18 +3,18 @@ title: "Top Down Modeling Bike Phone Mount"
 excerpt: "Bike phone mount compatible with various size phone and rotate between landscape and potrait orientation designed via top-down modeling"
 
 header:
-  image: assets/img/Mounted.jpg
-  teaser: assets/img/Parts.jpg
+  image: /assets/img/Mounted.jpg
+  teaser: /assets/img/Parts.jpg
 
 gallery:
-  - url: assets/img/Mounted.jpg
-    image_path: assets/img/Mounted.jpg
+  - url: /assets/img/Mounted.jpg
+    image_path: /assets/img/Mounted.jpg
     alt: "Phone Mounted"
-  - url: assets/img/Parts.jpg
-    image_path: assets/img/Parts.jpg
+  - url: /assets/img/Parts.jpg
+    image_path: /assets/img/Parts.jpg
     alt: "All parts"
-  - url: assets/img/Detent.jpg
-    image_path: assets/img/Detent.jpg
+  - url: /assets/img/Detent.jpg
+    image_path: /assets/img/Detent.jpg
     alt: "Detent Internals"
 ---
 
@@ -39,7 +39,7 @@ A ball-spring detent mechanism is used to enable rotation between landscape and 
 Overall, the mechanism performed effectively; however, a key design consideration is the depth of the gear grooves. If the grooves are too deep, the detent force becomes too high, making rotation difficult. Conversely, if the grooves are too shallow, the holding force is insufficient, and the mount may not reliably maintain its orientation. This trade-off must be carefully balanced to achieve both smooth rotation and adequate positional stability.
 
 <p align="center">
-  <img src="assets/img/Detent.jpg" alt="detent internals" width="700">
+  <img src="/assets/img/Detent.jpg" alt="detent internals" width="700">
 </p>
 
 ### Printing Method
@@ -49,7 +49,7 @@ Traditional filament printing was used to manufacture the majority of the phone 
 For the clamp component, pSLS was used. Since the clamp must withstand tensile stress from being secured onto the bike handlebar, it is critical to use a manufacturing method that can endure repeated deformation without failure. The nylon pSLS-printed part met these requirements by providing a combination of strength, flexibility, and high dimensional accuracy.
 
 <p align="center">
-  <img src="assets/img/Parts.jpg" alt="All parts to bike mount" width="700">
+  <img src="/assets/img/Parts.jpg" alt="All parts to bike mount" width="700">
 </p>
 
 
