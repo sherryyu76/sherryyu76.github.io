@@ -1,21 +1,21 @@
 ---
 title: "Top Down Modeling Bike Phone Mount"
-excerpt: "Multi-material, print-in-place pair of pliers that functions immediately after printing with no assembly required, featuring a precise grip capable of picking up small components such as through-hole resistors. "
+excerpt: "Bike phone mount compatible with various size phone and rotate between landscape and potrait orientation designed via top-down modeling"
 
 header:
-  image: assets/img/Plier Iteration 2:3.jpg
-  teaser: assets/img/plier-all.jpg
+  image: assets/img/Mounted.jpg
+  teaser: assets/img/Parts.jpg
 
 gallery:
-  - url: assets/img/plier-all.jpg
-    image_path: assets/img/plier-all.jpg
-    alt: "All pliers"
-  - url: assets/img/Plier Iteration 2:3.jpg
-    image_path: assets/img/Plier Iteration 2:3.jpg
-    alt: "Two of the best iterations"
-  - url: assets/img/PlierGIF.gif
-    image_path: assets/img/PlierGIF.gif
-    alt: "Plier in motion"
+  - url: assets/img/Mounted.jpg
+    image_path: assets/img/Mounted.jpg
+    alt: "Phone Mounted"
+  - url: assets/img/Parts.jpg
+    image_path: assets/img/Parts.jpg
+    alt: "All parts"
+  - url: assets/img/Detent.jpg
+    image_path: assets/img/Detent.jpg
+    alt: "Detent Internals"
 ---
 
 ## Top Down Modeling 
@@ -39,25 +39,17 @@ A ball-spring detent mechanism is used to enable rotation between landscape and 
 Overall, the mechanism performed effectively; however, a key design consideration is the depth of the gear grooves. If the grooves are too deep, the detent force becomes too high, making rotation difficult. Conversely, if the grooves are too shallow, the holding force is insufficient, and the mount may not reliably maintain its orientation. This trade-off must be carefully balanced to achieve both smooth rotation and adequate positional stability.
 
 <p align="center">
-  <img src="/assets/img/Dovetail-Iterations.jpg" alt="Dovetail Iterations" width="700">
+  <img src="assets/img/Detent.jpg" alt="detent internals" width="700">
 </p>
 
 ### Printing Method
-
-<p align="center">
-  <img src="/assets/img/plier-all.jpg" alt="Plier Iterations" width="700">
-</p>
 
 Traditional filament printing was used to manufacture the majority of the phone mount, as it offers rapid prototyping, minimal post-processing, and sufficient strength for this application. However, a trade-off of this method is reduced surface quality, particularly in features such as the gear grooves. The layer-based printing process introduces surface roughness, which can negatively affect the smooth rotation of the detent mechanism. To combat this, a shallower groove depth, approximately three-quarters of the ball bearing diameter, was selected to reduce resistance while still maintaining adequate detent engagement.
 
 For the clamp component, pSLS was used. Since the clamp must withstand tensile stress from being secured onto the bike handlebar, it is critical to use a manufacturing method that can endure repeated deformation without failure. The nylon pSLS-printed part met these requirements by providing a combination of strength, flexibility, and high dimensional accuracy.
 
 <p align="center">
-  <img src="/assets/img/Plier-Iteration-2.PNG" alt="Second Iteration" width="700">
-</p>
-
-<p align="center">
-  <img src="/assets/img/PlierGIF.gif" alt="Pliers Working Demonstration" width="700">
+  <img src="assets/img/Parts.jpg" alt="All parts to bike mount" width="700">
 </p>
 
 
