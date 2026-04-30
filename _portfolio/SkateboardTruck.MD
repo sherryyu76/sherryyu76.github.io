@@ -3,7 +3,7 @@ title: "Generative Design Skateboard Truck"
 excerpt: "Lightweight electric skateboard truck modeled using Fusion 360 Generative Design and prototyped using pSLS technology "
 header:
   image: /assets/img/truckSkateboard.jpg
-  teaser: /assets/img/truckFront.jpg
+  teaser: /assets/img/truckCropped.png
 
 gallery:
   - url: /assets/img/truckFront.jpg
