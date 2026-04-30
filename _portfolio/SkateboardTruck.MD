@@ -69,7 +69,7 @@ Load cases are a critical aspect of the generative design process. It is essenti
 | Bump/Curb Force (Motor Side)           | 1000 N           | Side with motor mount                           | Simulates impact force when hitting a bump on motor side                 |
 | Bump/Curb Force (Opposite Side)        | 1500 N           | Side without motor mount                        | Higher impact force on unloaded side during uneven terrain               |
 | Motor Weight                           | 9 N              | Motor mounting plate                            | Accounts for static load of motor on mount                               |
-| Motor Mount Impact Force               | 500 N            | Motor mount (opposite direction of gravity)     | Simulates impact when motor mount hits a bump or obstacle                |
+| Motor Mount Impact & Belt Tension      | 500 N            | Motor mount (opposite direction of gravity)     | Simulates impact from bumps combined with additional load from belt tension |
 
 Large language models, such as ChatGPT, were used as a supporting tool to help estimate reasonable load magnitudes and identify appropriate locations for force application. To further improve the performance and reliability of the generated design, additional load cases could be incorporated to better capture a wider range of real-world conditions. Expanding the set of forces would allow the generative design algorithm to more effectively determine where increased structural integrity is necessary.
 
