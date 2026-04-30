@@ -60,7 +60,16 @@ By properly defining these preserved and obstacle geometries, the generative des
 
 Load cases are a critical aspect of the generative design process. It is essential that the applied loads accurately represent the forces the skateboard truck will experience under real-world conditions to ensure optimal performance. Both the magnitude and location of these forces must be defined to reflect realistic use scenarios. The load cases used in this study, including their magnitudes, application points, and descriptions, are summarized below.
 
-[Insert table with load cases]
+| Name of Force                          | Magnitude        | Location of Application                         | Rationale                                                                 |
+|----------------------------------------|------------------|--------------------------------------------------|---------------------------------------------------------------------------|
+| Rider Weight (Bearing Load)            | 300 N (each side)| Ends of preserved axle (perpendicular)          | Simulates rider weight distributed through wheels onto the truck         |
+| Turning Shear Force                    | 180 N            | Along Y-axis of preserved axle                  | Represents lateral force during turning                                  |
+| Motor Torque                           | 8 N·mm           | Face of motor mounting plate                    | Simulates torque applied by motor during acceleration                    |
+| Counter Torque (Braking)               | -8 N·mm          | Face of motor mounting plate                    | Represents braking torque opposing motor rotation                        |
+| Bump/Curb Force (Motor Side)           | 1000 N           | Side with motor mount                           | Simulates impact force when hitting a bump on motor side                 |
+| Bump/Curb Force (Opposite Side)        | 1500 N           | Side without motor mount                        | Higher impact force on unloaded side during uneven terrain               |
+| Motor Weight                           | 9 N              | Motor mounting plate                            | Accounts for static load of motor on mount                               |
+| Motor Mount Impact Force               | 500 N            | Motor mount (opposite direction of gravity)     | Simulates impact when motor mount hits a bump or obstacle                |
 
 Large language models, such as ChatGPT, were used as a supporting tool to help estimate reasonable load magnitudes and identify appropriate locations for force application. To further improve the performance and reliability of the generated design, additional load cases could be incorporated to better capture a wider range of real-world conditions. Expanding the set of forces would allow the generative design algorithm to more effectively determine where increased structural integrity is necessary.
 
