@@ -1,6 +1,6 @@
 ---
-title: "Syringe Pump"
-excerpt: "Custom printed, & assembled low-cost syringe pump that addressed high cost of commercial units, while enabling precise fluid delivery (±0.0001 mL)"
+title: "Generative Design Skateboard Truck"
+excerpt: "Lightweight electric skateboard truck modeled using Fusion 360 Generative Design and prototyped using pSLS technology "
 header:
   image: /assets/img/SyringePumpRender.png
   teaser: /assets/img/SyringePump.png
@@ -17,9 +17,13 @@ gallery:
     alt: "Breadboard wiring along with the stepper motor driver"
 ---
 
-The automated syringe pump was designed to deliver or withdraw liquid from a syringe with high precision and repeatability for laboratory and medical-style applications. Unlike manual syringe operation, which is inconsistent and difficult to control, this system converts the rotational motion of a stepper motor into linear motion through a lead-screw-driven actuator. This allows the device to control fluid flow rates in milliliters per minute, making it suitable for experiments requiring accurate, programmable dosing.
+## Powder Bed Selective Laser Sintering and Generative Design
 
-The pump supports both 10 mL and 20 mL syringes without mechanical reconfiguration. Flow rate is set in software and converted into motor speed using the geometry of the syringe and lead screw, allowing consistent volumetric delivery across syringe sizes.
+Powder Bed Selective Laser Sintering (pSLS) is an additive manufacturing process that uses a laser to selectively melt and sinter plastic powder in a layer-by-layer manner to form a solid component. One key advantage of pSLS is that it does not require support structures, as the surrounding unsintered powder naturally provides support during the build process. Generative design in Autodesk Fusion is a modeling approach in which, rather than manually designing a component, the user defines performance goals, constraints, preserved regions, and loading conditions. The software then uses algorithms to automatically generate optimized design solutions. These resulting designs often feature organic, complex geometries that minimize weight while maintaining structural integrity.
+
+These two technologies pair well together, as pSLS is capable of manufacturing the intricate, support-free geometries produced by generative design without concern for orientation or additional support material. This combination is especially valuable in industries such as automotive and aerospace, where reducing weight while maintaining strength is critical for improving efficiency and performance. 
+
+A prime example is the Airbus Bionic Partition. This cabin partition was originally composed of multiple components, including brackets, fasteners, and structural elements. Through generative design, it was redesigned as a more integrated, lightweight structure, reducing assembly complexity and contributing to improved fuel efficiency.  More about the Airbus Bionic Partition can be found [here](https://www.airbus.com/en/newsroom/news/2016-03-pioneering-bionic-3d-printing).
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028110fb0092e04850470?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
