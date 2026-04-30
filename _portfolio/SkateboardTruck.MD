@@ -2,19 +2,19 @@
 title: "Generative Design Skateboard Truck"
 excerpt: "Lightweight electric skateboard truck modeled using Fusion 360 Generative Design and prototyped using pSLS technology "
 header:
-  image: /assets/img/SyringePumpRender.png
-  teaser: /assets/img/SyringePump.png
+  image: /assets/img/truckSkateboard.jpg
+  teaser: /assets/img/truckFront.jpg
 
 gallery:
-  - url: /assets/img/SyringePump1.JPG
-    image_path: /assets/img/SyringePump1.JPG
-    alt: "Interior Wiring of Syringe Pump"
-  - url: /assets/img/SyringePump2.JPG
-    image_path: /assets/img/SyringePump2.JPG
-    alt: "Side Profile Syringe Pump"
-  - url: /assets/img/SyringePump3.JPG
-    image_path: /assets/img/SyringePump3.JPG
-    alt: "Breadboard wiring along with the stepper motor driver"
+  - url: /assets/img/truckFront.jpg
+    image_path: /assets/img/truckFront.jpg
+    alt: "Powder Printed Generative Design Skateboard Truck"
+  - url: /assets/img/truckSide.jpg
+    image_path: /assets/img/truckSide.jpg
+    alt: "Side Profile Skateboard Truck"
+  - url: /assets/img/truckSkateboard.jpg
+    image_path: /assets/img/truckSkateboard.jpg
+    alt: "Skateboard Truck Assembled Onto Skateboard"
 ---
 
 ## Powder Bed Selective Laser Sintering and Generative Design
@@ -56,37 +56,20 @@ To satisfy these clearance requirements, regions within the assembly must be des
 By properly defining these preserved and obstacle geometries, the generative design algorithm can produce a structure that maintains the necessary clearances for all components while preserving the required degrees of freedom for motion.
 
 
-## Key Features of the Design
+## Load Cases
 
-## Off Shelf Parts
+Load cases are a critical aspect of the generative design process. It is essential that the applied loads accurately represent the forces the skateboard truck will experience under real-world conditions to ensure optimal performance. Both the magnitude and location of these forces must be defined to reflect realistic use scenarios. The load cases used in this study, including their magnitudes, application points, and descriptions, are summarized below.
 
-| Part | Quantity |
-|------|----------|
-| Heat Set Inserts (M3) | 11 |
-| Alloy Steel Socket Head Screws (M3) | 8 |
-| Latching Push Button | 1 |
-| Non-latching Push Button | 2 |
-| RGB LED (Common Anode/Cathode) | 1 |
-| 400-point Solderless Breadboard | 1 |
-| Jumper Wire Kit | 1 pack |
-| Assorted Resistor Kit | 1 pack |
-| Stepper Motor Driver  | 1 |
-| Stainless Steel Thread-locking Socket Head Screws | 8 |
-| Mean Well RD-65A Dual Output Power Supply | 1 |
-| Zinc-Plated Steel Hex Nut | 1 |
-| Arduino Uno | 1 |
-| V-Slot 20×40 Aluminum Extrusion (350 mm) | 1 |
-| NEMA-17 Stepper Motor | 1 |
-| M3 × 10 mm Bolts | 4 |
-| M5 T-Slot (Tree) Nuts | 8 |
-| M5 × 8 mm Bolts | 8 |
-| F688ZZ Flanged Ball Bearing (8 mm ID) | 1 |
-| M3 × 8 mm Thread-forming Screws | 4 |
-| TR8×8 Brass Lead-Screw Nut | 1 |
-| LM8UU Linear Bearing | 1 |
-| 20 mL Syringe | 1 |
-| TR8×8 Lead Screw (250 mm) | 1 |
-| 8 mm Linear Rod (200 mm) | 1 |
-| ¼” to 8 mm Flexible Shaft Coupler | 1 |
+[Insert table with load cases]
+
+Large language models, such as ChatGPT, were used as a supporting tool to help estimate reasonable load magnitudes and identify appropriate locations for force application. To further improve the performance and reliability of the generated design, additional load cases could be incorporated to better capture a wider range of real-world conditions. Expanding the set of forces would allow the generative design algorithm to more effectively determine where increased structural integrity is necessary.
+
+
+## Conclusion
+
+In conclusion, generative design and pSLS offer a unique and powerful approach to modeling and prototyping components, particularly for applications that require both lightweight structures and strong mechanical performance. In this project, the generative design process successfully produced a skateboard truck that met the intended functional requirements, enabling the necessary motion while minimizing mass and maintaining structural integrity.
+
+Although many advantages hold, there are notable limitations. Components generated through generative design often include complex organic geometries that are difficult to manufacture using traditional methods, which can limit their feasibility for commercial production. However, in specialized fields such as automotive and aerospace, where weight optimization is critical, generative design continues to provide a significant competitive advantage.
+
 
 {% include gallery caption="Generative Design Skateboard Truck" %}
