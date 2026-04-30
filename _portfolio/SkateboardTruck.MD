@@ -25,17 +25,38 @@ These two technologies pair well together, as pSLS is capable of manufacturing t
 
 A prime example is the Airbus Bionic Partition. This cabin partition was originally composed of multiple components, including brackets, fasteners, and structural elements. Through generative design, it was redesigned as a more integrated, lightweight structure, reducing assembly complexity and contributing to improved fuel efficiency.  More about the Airbus Bionic Partition can be found [here](https://www.airbus.com/en/newsroom/news/2016-03-pioneering-bionic-3d-printing).
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028110fb0092e04850470?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+## Generative Design Skateboard Truck
+
+In this project, a skateboard truck for an electric skateboard will be designed using a generative design approach, integrating the truck and motor mount into a single component. The study will consider two materials, AlSi10Mg and 17-4 PH stainless steel, which are commonly used in metal powder bed fusion processes. The primary objective is to minimize mass while maintaining structural integrity, with a target safety factor of 2. Additionally, an “unrestricted” manufacturing method will be specified to allow the generative design algorithm maximum freedom in exploring a wide range of geometries.
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811de77901161bca7c6?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+## Materials
+
+The two generative design studies conducted for the selected materials produced similar overall geometries for the final skateboard truck. The primary difference lies in the structural features: the AlSi10Mg (aluminum) design exhibits thicker and bulkier features and supports compared to the 17-4 PH stainless steel design. This is expected, as aluminum has a lower tensile strength than stainless steel, requiring additional material to maintain the same safety factor. As loads and forces increase, the aluminum design would continue to become significantly bulkier relative to the steel design in order to satisfy structural constraints. The final CAD models for both AlSi10Mg and 17-4 PH stainless steel respectively are shown below.
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028112a55368953c22d59?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811d93e9d50390c8130?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+ 
+## Obstacle and Preserved Geometries
+
+Defining appropriate obstacle and preserved geometries is critical to the success of a generative design study. The design must ensure sufficient clearance around the pivot point to allow proper truck rotation, adequate space for the motor system, and sufficient clearance must be provided for mounting bolts and the Allen key required for installation.
+
+<p align="center">
+  <img src=" /assets/img/PivotClearance.gif" alt="Pivot Cup Turning Motion" width="700">
+</p>
+
+<p align="center">
+  <img src=" /assets/img/RotatingMotor.gif" alt="Motor Rotation" width="700">
+</p>
+
+To satisfy these clearance requirements, regions within the assembly must be designated as preserved geometries. These include the ends of the axle (which define the wheel bearing seat diameter and spacing), the pivot cup interface, the central cutout region, and the motor mounting plate. All surrounding components in the CAD assembly should be defined as obstacle geometries to prevent interference during the design generation process. Additionally, installation clearance regions must be specified as obstacles for components such as the TPU bushing, motor mounting screws, wheel nuts, and areas surrounding the axle.
+
+By properly defining these preserved and obstacle geometries, the generative design algorithm can produce a structure that maintains the necessary clearances for all components while preserving the required degrees of freedom for motion.
+
 
 ## Key Features of the Design
-
-- **Stepper-Driven Lead Screw** – A stepper motor drives an 8 mm lead screw that converts rotational motion into precise linear movement of the syringe plunger.  
-- **Universal Syringe Mount** – Custom 3D-printed pusher and holder blocks allow both 10 mL and 20 mL syringes to fit securely without mechanical reconfiguration.  
-- **Programmable Flow Control** – The syringe diameter and desired flow rate are entered in software and used to calculate the motor speed for accurate volumetric delivery.  
-- **Manual & Automatic Operation** – A latch button controls automatic pumping, while forward and reverse buttons allow manual positioning of the actuator.  
-- **Limit Switch Safety** – A normally-closed limit switch stops all motion when the syringe reaches its mechanical limit to prevent damage.  
-- **Status Indication** – An RGB LED displays pump states including running, paused, manual motion, and limit reached.  
-- **Protective Enclosure** – The electronics are housed inside a box that protects users from electrical components and shields them from fluid spills.  
 
 ## Off Shelf Parts
 
@@ -68,29 +89,4 @@ A prime example is the Airbus Bionic Partition. This cabin partition was origina
 | 8 mm Linear Rod (200 mm) | 1 |
 | ¼” to 8 mm Flexible Shaft Coupler | 1 |
 
-## Custom 3D Printed Parts
-
-| Part | Link |
-|------|------|
-| Electronic Component Enclosure | [View Model](https://a360.co/4qRrEPI) |
-| Syringe Carriage | [View Model](https://a360.co/49hPJcu) |
-| Motor Mounting Plate | [View Model](https://a360.co/4sz29nX) |
-| In Support | [View Model](https://a360.co/3NIO0UY) |
-| In Support with Syringe Wing | [View Model](https://a360.co/49hPRbY) |
-
-## Operating the Syringe Pump
-
-**1.** Set the syringe diameter size and desired flow rate in the Arduino IDE program using the functions `syringeDiameter_mm` and `flowRate_mL_min`.  
-**2.** Plug the computer into the Arduino using the USB cable and select the proper USB port in the program.  
-**3.** Upload the program to the Arduino.  
-**4.** Remove the USB cable from the Arduino and plug in the power cord.  
-**5.** Prepare the syringe by pulling the plunger until full with the desired amount of liquid.  
-**6.** Use the forward and reverse buttons (red) to set the correct length of the actuator so that the syringe will fit in the inserts. Ensure the pump is not moving. If it is, press the black latch button to stop it and reset the length between the syringe holders.  
-**7.** Insert the syringe into the holder. The plunger should go in the rectangle closer to the motor, and the base of the syringe should go on top of the rectangle closer to the LED.  
-**8.** Press the black latch button to start the pump. The LED should turn green.  
-**9.** Once the pump is complete, the LED will turn red and the actuator will stop moving.
-
-🔗 **[View the Syringe Pump Arduino code on GitHub](https://github.com/sherryyu76/Syringe_Pump_Code/blob/main/ArduinoCode)**
-
-
-{% include gallery caption="Automatic Stepper Motor Driven Syringe Pump. " %}
+{% include gallery caption="Generative Design Skateboard Truck" %}
